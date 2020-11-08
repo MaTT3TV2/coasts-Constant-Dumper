@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coasts' Constant Dumper", "coasts' Constant Dumper\coasts' Constant Dumper.csproj", "{66CBB2AD-3E0D-4E99-9F4F-06130FD96272}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66CBB2AD-3E0D-4E99-9F4F-06130FD96272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CBB2AD-3E0D-4E99-9F4F-06130FD96272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CBB2AD-3E0D-4E99-9F4F-06130FD96272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CBB2AD-3E0D-4E99-9F4F-06130FD96272}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9752928-7E76-4C20-85B2-2925EF91B847}
+	EndGlobalSection
+EndGlobal

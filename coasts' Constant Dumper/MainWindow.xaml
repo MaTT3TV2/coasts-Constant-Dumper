@@ -1,0 +1,20 @@
+﻿<Window x:Class="coasts__Constant_Dumper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:coasts__Constant_Dumper"
+        mc:Ignorable="d"
+        Title="coasts' Constant Dumper" Height="350" Width="650" Icon="/losangelesicon.png" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*"/>
+            <ColumnDefinition Width="41*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="CodeInputTextbox" HorizontalAlignment="Left" Margin="10,10,0,0" Text="--// Enter a obfuscated script to dump here!" TextWrapping="NoWrap" VerticalAlignment="Top" Width="543" Grid.ColumnSpan="2" Height="248" FontFamily="Consolas" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
+        <Button x:Name="DumpButton" Content="Dump" HorizontalAlignment="Left" Margin="10,270,0,0" VerticalAlignment="Top" Width="124" Height="33" Click="DumpButton_Click"/>
+        <Button x:Name="ClearButton" Content="Clear" HorizontalAlignment="Left" Margin="139,270,0,0" VerticalAlignment="Top" Width="124" Height="33" Click="ClearButton_Click"/>
+        <RadioButton x:Name="IronbrewOption" Content="Ironbrew" Grid.Column="1" HorizontalAlignment="Left" Margin="185,10,0,0" VerticalAlignment="Top" IsChecked="True"/>
+
+    </Grid>
+</Window>

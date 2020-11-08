@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>coasts__Constant_Dumper</RootNamespace>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>losangelesicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="losangelesicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicLua" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="losangelesicon.png" />
+  </ItemGroup>
+
+</Project>
